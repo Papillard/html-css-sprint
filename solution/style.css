@@ -1,0 +1,108 @@
+/* Basic Styles (fonts, colors, images) */
+body {
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  color: rgb(30, 30, 30);
+  font-weight: lighter;
+  line-height: 1.6;
+  background: #F7F9FC;
+}
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+}
+h1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: black;
+}
+h2 {
+  font-size: 22px;
+  font-weight: normal;
+  color: rgb(160,160,160);
+}
+h3 {
+  font-size: 22px;
+}
+a {
+  color: rgb(200,200,200);
+  text-decoration: none;
+}
+a:hover {
+  color: #6A71E1;
+}
+img {
+  border-radius: 4px;
+  width: 100%;
+}
+
+/* Custom Class */
+.avatar {
+  width: 80px;
+  border-radius: 50%;
+}
+.btn-blue {
+  color: white;
+  background: #6772e5;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 15px 20px;
+  font-family: Roboto;
+  display: inline-block;
+}
+.btn-blue:hover {
+  background: #7795f8;
+  color: white;
+}
+.section {
+  margin: 30px 0px;
+  background: white;
+  border-radius: 4px;
+  box-shadow: 0 15px 35px rgba(50,50,93,.1);
+  padding: 20px 30px;
+}
+.list-inline {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+.list-inline li {
+  display: inline-block;
+  padding: 0px 10px;
+  font-size: 25px;
+}
+
+/* Page Adjustment */
+#author h2 {
+  font-size: 16px;
+}
+#author p {
+  font-size: 12px;
+}
+
+/* Responsive Container */
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
